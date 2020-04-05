@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "GeneralList.h"
+#include "GeneralList.hpp"
 
 int main() {
 	List<int> IntListA;
@@ -39,8 +39,6 @@ int main() {
 		FloatListD.push_front(7.2);
 		FloatListD.push_back(5.6);
 	}
-	FloatListD.print();
-	FloatListD.reverse();
 	FloatListD.print();
 
 	FloatList FloatListE=FloatListD;
